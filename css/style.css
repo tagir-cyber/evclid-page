@@ -719,7 +719,7 @@ header {
 }
 
 .footer-box-nav{
-  max-width: 252px;
+  width: 252px;
   margin-right: 349px;
 }
 
@@ -731,6 +731,7 @@ header {
 
 .footer-nav{
   margin-bottom: 90px;
+  width: 252px;
 }
 
 .footer-nav__link{
@@ -769,7 +770,8 @@ header {
 
 .form__element{
   background-color: #414141;
-  width: 570px;
+  /* width: 570px; */
+  width: 100%;
   min-height: 60px;
   border-radius: 16px;
   margin-bottom: 25px;
@@ -779,6 +781,7 @@ header {
 
 .textarea{
   min-height: 150px;
+  resize: none;
 }
 
 .footer-box__check{
