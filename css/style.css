@@ -768,15 +768,19 @@ header {
   color: #fff;
 }
 
+.input{
+  height: 60px;
+}
+
 .form__element{
   background-color: #414141;
   /* width: 570px; */
   width: 100%;
-  min-height: 60px;
+  /* min-height: 60px; */
   border-radius: 16px;
   margin-bottom: 25px;
   color: var(--border-color);
-  padding: 24px 14px;
+  padding: 14px 24px;
 }
 
 .textarea{
@@ -851,7 +855,7 @@ header {
 
 /* текст в футере */
 .footer-text-wrap{
-  padding-top: 51px;
+  padding-top: 83px;
   max-width: 363px;
 }
 
@@ -861,5 +865,4 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
-
 }

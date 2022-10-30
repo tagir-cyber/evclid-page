@@ -142,6 +142,22 @@
     max-width: 100%;
   }
 
+  .footer-block{
+    flex-direction: column-reverse;
+  }
+
+  .footer-box-nav{
+    margin-right: 0;
+  }
+
+  .footer-nav{
+    display: none;
+  }
+
+  .form-box{
+    margin-bottom: 50px;
+  }
+
   .wrapper-block {
     flex-direction: column-reverse;
   }
